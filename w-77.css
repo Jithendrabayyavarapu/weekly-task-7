@@ -1,0 +1,387 @@
+.head,.head1{
+    background-color: #d41864;
+    opacity: 0.75;
+    width:100%;
+    width:1000vh !important;
+}
+.head1{
+    background-color: #d41864;
+    opacity: 0.75;
+    width:1000vh;
+}
+.h22{
+    display: flex;
+    flex-direction:row;
+    margin-top: 20px !important;
+}
+.righthead{
+    /* margin-left: 820px; */
+}
+.middle{
+    text-align: center;
+    margin-top:  15% !important;
+    font-size: 25px;
+}
+.top{
+    margin-top: 8%;
+    
+    /* background-color: #d41864; */
+}
+.middle1{
+    /* border:1px solid black; */
+    border-radius: 25px;
+    box-shadow: 0px 0px 8px;
+    margin-left: 25%;
+    width:50% !important;
+    height: 50% !important;
+    padding: 20px;
+    padding-bottom: 50px;
+    background-color: #4bbfe5;
+}
+.middle1 h3{
+    text-align: center;
+    /* font-size: 20px; */
+    /* font-family: Arial, Helvetica, sans-serif; */
+}
+.imgcontainer img{
+    height: 100px;
+    width: 100px;
+    margin-left: 45%;
+    /* text-align: center; */
+}
+.forms-3{
+    padding-top: 20px !important;
+}
+.forms-4{
+    padding-top: 10px;
+}
+.btn{
+    margin-top: 20px;
+}
+.button1{
+    background-color: #d41864 !important;
+    font-size: 20px !important;
+}
+.button2{
+    background-color: #d41864 !important;
+    font-size: 20px !important;
+}
+.btn
+{
+    justify-content: center !important;
+    margin-left: 20%;
+    /* background-color: #4bbfe5 !important; */
+    border: #4bbfe5;
+}
+/* body {
+    background: #f8f9fa;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+} */
+
+.login-container {
+    background: #ffffff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    border-radius: 10px;
+    width: 620px;
+    height: 500px !important;
+    position: absolute;
+    /* align-items: center !important; */
+    margin-top: 8%;
+    margin-left: 38%;
+    font-size: 20px;
+    background-color:#d41864;
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 60px;
+}
+.loginForm{
+    align-items: center !important;
+
+}
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: 600;
+}
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.form-group input:focus {
+    outline: none;
+    border-color: #007bff;
+}
+
+.form-group input::before {
+    content: "\f007"; 
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #ced4da;
+}
+
+.form-group input[type="password"]::before {
+    content: "\f023"; 
+}
+
+.form-group .btn-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group button {
+    width: 48%; 
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #007bff;
+    color: #fff;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+.button10{
+    width: 250px !important;
+    margin-left: 10px !important;
+}
+.button11{
+    background-color: #007bff;
+    margin-left: 1500px !important;
+    width: 100px;
+    font-size: 20px;
+    /* padding-bottom: 0px; */
+    /* align-items: center; */
+    /* text-align: center; */
+    border-radius: 10px;
+    margin: 20px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: 0px;
+
+}
+.loginbutton{
+    color:black !important;
+
+
+}
+.form-group button:hover {
+    background: #0056b3;
+}
+.person{
+    display:flex;
+    flex-direction: row;
+    margin-left: 1570px;
+    margin-top: 70px;
+    background-color: #4bbfe5;
+    border-radius: 150px; 
+    height:50px;
+}
+.person1{
+    margin-left:200px;
+    margin-top:20px;
+}
+
+.header .person{
+    /* margin-top: 120px !important; */
+
+}
+#box1{
+    display:none;
+    position: relative;
+    top:-70px !important;
+    left:1740px;
+    width:80px;
+    height:80px;
+    text-align: center;
+    border-radius: 5px;
+    padding:1px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size:20px !important;
+    /* font-weight: 200 !important; */
+    background-color: #4bbfe5;
+}
+#box2{
+    display:none;
+    position: relative;
+    margin-top: -997px;
+    margin-left: 1750px;
+    /* top:-70px !important; */
+    /* left:1740px; */
+    width:80px;
+    height:80px;
+    text-align: center;
+    border-radius: 5px;
+    padding:1px;
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-size:20px !important;
+    /* font-weight: 200 !important; */
+    background-color: #4bbfe5;
+}
+.ro1{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    /* margin-left:100px; */
+}
+.name{
+    display: block !important;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+form{
+    max-width: 500px;
+    margin: 0 auto;
+}
+h1{
+    text-align: center;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+}
+input,
+textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+button {
+    padding: 10px;
+    display:block;
+    margin: 0 auto;
+}
+.error-message {
+    color: red;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.table-container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+table {
+    /* margin-top: 20px; */
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+.registrationpage{
+    background-color: #d41864;
+    font-size: 20px;
+    /* margin-left */
+    /* border:1px solid black; */
+    border-radius:20px;
+    box-shadow: 0px 0px 5px;
+    width:750px;
+    margin-top: 20px;
+    padding:20px;
+    padding-top: 50px;
+    margin-left: 600px;
+}
+.register{
+    margin-top: 20px;
+    margin-left: 190px;
+    background-color: #0056b3;
+}
+.table-container
+{
+    background-color: #0056b3;
+}
+.table1{
+    background-color: #007bff;
+}
+.button11 {
+    display: inline-block;
+    background-color: #4bbfe5;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button11:hover {
+    background-color: #4bbfe5;
+}
+
+
+
+
+
+
+/* ------------>media queries---------------> */
+/* Existing CSS code */
+
+/* Add media query for responsiveness */
+@media only screen and (max-width: 1200px) {
+    .head, .head1 {
+        width: 100%;
+    }
+
+    .login-container {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .middle1 {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .forms-3, .forms-4 {
+        padding-top: 10px !important;
+    }
+
+    .btn {
+        margin-left: 10%;
+    }
+
+    .button11 {
+        margin-left: 10%;
+    }
+
+    .person {
+        margin-left: 10%;
+    }
+
+    #box1, #box2 {
+        left: 90%;
+    }
+
+    .registrationpage {
+        width: 70%;
+        margin-left: 15%;
+    }
+
+    .register {
+        margin-left: 10%;
+    }
+}
+
+/* Add more media queries as needed */
